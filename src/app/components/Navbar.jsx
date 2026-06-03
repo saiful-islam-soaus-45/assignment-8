@@ -19,7 +19,7 @@ const Navbar = () => {
               className="object-cover"
               priority
             />
-            <h3 className="font-black text-lg bg-linear-to-r from-red-700 to-red-500 bg-clip-text text-transparent">
+            <h3 className="font-black text-lg bg-linear-to-r from-red-500 to-red-500 bg-clip-text text-transparent">
               Online Book Borrowing Platform
             </h3>
           </Link>
