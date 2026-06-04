@@ -3,10 +3,10 @@
 
 
 
+import Image from 'next/image';
 import React from 'react';
 
 const UserReviewCard = ({ review }) => {
-    const { image, name, comment, designation } = review;
 
     return (
         // mt-12 দেওয়া হয়েছে যেন ছবিগুলো উপরে ভেসে থাকার জায়গা পায় এবং কার্ডগুলো flex-1 দিয়ে সমান সাইজের হবে
@@ -14,7 +14,7 @@ const UserReviewCard = ({ review }) => {
             
             {/* গোল ছবি - অর্ধেক বর্ডারের উপরে ভাসানো */}
             <div className="absolute top-0 left-6 transform -translate-y-1/2">
-                <img
+                <Image
                     src={image}
                     alt={name}
                     className="w-24 h-24 rounded-full border-4 border-white object-cover shadow-md"
