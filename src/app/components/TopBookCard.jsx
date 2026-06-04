@@ -56,7 +56,7 @@ const TopBookCard = ({ book }) => {
                 </div>
             </div>
 
-            {/* View Details Button */}
+          
             <Button
                 variant="bordered"
                 className="w-full bg-linear-to-r from-red-500 to-red-500  border-gray-200 text-white font-medium hover:bg-gray-50 transition-colors py-2 rounded-xl text-sm mt-1"
