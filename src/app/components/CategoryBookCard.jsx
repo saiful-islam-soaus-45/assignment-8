@@ -1,11 +1,9 @@
-import { Card, Button, Chip } from "@heroui/react";
+import { Button, Card, Chip } from "@heroui/react";
+import { Layers } from "lucide-react";
 import Image from "next/image";
-import React from "react";
-import { Heart, Layers } from "lucide-react";
-
-const TopBookCard = ({ book }) => {
 
 
+const CategoryBookCard = ({ book }) => {
     return (
         <Card className="  w-full max-w-70 p-4 border border-gray-100 rounded-2xl shadow-sm bg-white  gap-3 overflow-visible">
 
@@ -68,4 +66,4 @@ const TopBookCard = ({ book }) => {
     );
 };
 
-export default TopBookCard;
+export default CategoryBookCard;

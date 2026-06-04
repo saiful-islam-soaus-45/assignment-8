@@ -3,6 +3,7 @@ import Banner from "./components/Banner";
 import Marquee from "react-fast-marquee";
 import ScrollingBookNames from "./components/ScrollingBookNames";
 import TopBooks from "./components/TopBooks";
+import CategoryBooks from "./components/CategoryBooks";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Banner></Banner>
       <ScrollingBookNames></ScrollingBookNames>
       <TopBooks></TopBooks>
+      <CategoryBooks></CategoryBooks>
     </div>
   );
 }
