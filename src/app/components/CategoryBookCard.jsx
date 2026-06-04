@@ -37,11 +37,7 @@ const CategoryBookCard = ({ book }) => {
                 </p>
             </div>
 
-            <div className="mt-2">
-                <p className="text-xs text-gray-500 line-clamp-2">
-                    {book.description}
-                </p>
-            </div>
+           
 
             <div className="flex items-center gap-4 text-sm text-gray-600 px-1 font-medium">
                 <div className="flex items-center gap-1.5">
@@ -54,10 +50,9 @@ const CategoryBookCard = ({ book }) => {
                 </div>
             </div>
 
-            {/* View Details Button */}
             <Button
                 variant="bordered"
-                className="w-full bg-linear-to-r from-red-500 to-red-500  border-gray-200 text-white font-medium hover:bg-gray-50 transition-colors py-2 rounded-xl text-sm mt-1"
+                className="w-full bg-red-500 border-gray-200 text-white font-medium hover:bg-red-600 transition-colors py-2 rounded-xl text-sm mt-1"
             >
                 View Details
             </Button>
