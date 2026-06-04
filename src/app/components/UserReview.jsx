@@ -1,23 +1,18 @@
-import React from 'react';
-import UserReviewCard from './UserReviewCard';
+import UserReviewCard from "./UserReviewCard";
 
 const UserReview = async () => {
-    const res = await fetch('https://assignment-8-nine-sigma.vercel.app/review.json');
+    const res = await fetch('https://your-project-name.vercel.app/review.json', {
+        cache: 'no-store' 
+    });
     const reviews = await res.json();
-    
+
     return (
-        <div className="max-w-7xl mx-auto my-16 px-5">
-            <h2 className="text-3xl font-bold  text-gray-900 mb-6">
-                What Our Users Say
-            </h2>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-16 gap-x-8 mt-10">
+        <div className="bg-[#9c27b0] py-20 px-6 md:px-12 min-h-screen flex items-center justify-center">
+            <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-8 items-stretch w-full">
                 {reviews.map((review) => (
-                    <UserReviewCard key={review.id || review.name} review={review} />
+                    <UserReviewCard key={review.id} review={review} />
                 ))}
             </div>
         </div>
     );
 };
-
-export default UserReview;

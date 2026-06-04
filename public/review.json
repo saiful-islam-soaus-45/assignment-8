@@ -1,12 +1,12 @@
 [
   {
     "id": 1,
-    "name": "Rakib Hasan",
+    "name": "Sadia Islam",
     "university": "University of Dhaka",
-    "description": "A passionate reader who loves exploring technology and science books. Always looking for new knowledge and self-improvement. Finds this platform very helpful for academic growth.",
+    "description": "Avid reader and book lover. Finds the platform very user-friendly and enjoys the wide variety of books available. Uses it frequently for both academic and leisure reading.",
     "rating": 5,
     "image": "/users/1.png"
-  },
+  },  
   {
     "id": 2,
     "name": "Nusrat Jahan",
