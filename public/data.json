@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "The Lost Kingdom",
+    "author": "Emma Carter",
+    "description": "An adventurous story about a group of friends discovering a forgotten kingdom hidden deep in the mountains.",
+    "category": "Story",
+    "available_quantity": 15,
+    "image_url": "https://ibb.co.com/hRyDk84W"
+  },
+  {
+    "id": 2,
+    "title": "JavaScript Essentials",
+    "author": "Michael Brown",
+    "description": "A beginner-friendly guide to learning modern JavaScript and building interactive web applications.",
+    "category": "Tech",
+    "available_quantity": 20,
+    "image_url": "https://ibb.co.com/LXhSfgLZ"
+  },
+  {
+    "id": 3,
+    "title": "The Wonders of Space",
+    "author": "Sophia Green",
+    "description": "Explore galaxies, stars, and planets in this engaging introduction to astronomy.",
+    "category": "Science",
+    "available_quantity": 12,
+    "image_url": "https://ibb.co.com/Z65CpyRQ"
+  },
+  {
+    "id": 4,
+    "title": "Mystery at Riverdale",
+    "author": "Daniel Scott",
+    "description": "A thrilling mystery unfolds when strange events begin happening in a quiet town.",
+    "category": "Story",
+    "available_quantity": 8,
+    "image_url": "https://ibb.co.com/RZbqC2L"
+  },
+  {
+    "id": 5,
+    "title": "Mastering React",
+    "author": "Olivia Wilson",
+    "description": "Learn React fundamentals, hooks, and advanced concepts for modern web development.",
+    "category": "Tech",
+    "available_quantity": 18,
+    "image_url": "https://ibb.co.com/YFJkn1K1"
+  },
+  {
+    "id": 6,
+    "title": "The Human Body Explained",
+    "author": "James Taylor",
+    "description": "A fascinating journey through the systems and functions of the human body.",
+    "category": "Science",
+    "available_quantity": 10,
+    "image_url": "https://ibb.co.com/9HwbWr04"
+  },
+  {
+    "id": 7,
+    "title": "The Hidden Treasure",
+    "author": "Lily Anderson",
+    "description": "A captivating tale of courage and friendship as children search for a legendary treasure.",
+    "category": "Story",
+    "available_quantity": 14,
+    "image_url": "https://ibb.co.com/Kz3BdJdJ"
+  },
+  {
+    "id": 8,
+    "title": "Python for Developers",
+    "author": "Ethan Walker",
+    "description": "A practical guide to Python programming with real-world projects and examples.",
+    "category": "Tech",
+    "available_quantity": 25,
+    "image_url": "https://ibb.co.com/7tLqsYY0"
+  },
+  {
+    "id": 9,
+    "title": "Climate Change Today",
+    "author": "Ava Martinez",
+    "description": "An insightful overview of climate science and its impact on the world.",
+    "category": "Science",
+    "available_quantity": 9,
+    "image_url": "https://ibb.co.com/KxHXDnJc"
+  },
+  {
+    "id": 10,
+    "title": "Beyond the Horizon",
+    "author": "Noah White",
+    "description": "A heartwarming story of exploration, dreams, and self-discovery.",
+    "category": "Story",
+    "available_quantity": 11,
+    "image_url": "https://ibb.co.com/whXBqyvz"
+  },
+  {
+    "id": 11,
+    "title": "Cloud Computing Basics",
+    "author": "Charlotte Harris",
+    "description": "Understand cloud platforms, services, and deployment models with ease.",
+    "category": "Tech",
+    "available_quantity": 16,
+    "image_url": "https://ibb.co.com/CsTLzNVs"
+  },
+  {
+    "id": 12,
+    "title": "Quantum Physics Simplified",
+    "author": "Benjamin Clark",
+    "description": "An accessible introduction to the principles and mysteries of quantum physics.",
+    "category": "Science",
+    "available_quantity": 7,
+    "image_url": "https://ibb.co.com/fYFzMG9H"
+  }
+]
