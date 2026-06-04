@@ -6,7 +6,7 @@
     "description": "An adventurous story about a group of friends discovering a forgotten kingdom hidden deep in the mountains.",
     "category": "Story",
     "available_quantity": 15,
-    "image_url": "https://ibb.co.com/hRyDk84W"
+    "image_url": "/book/1.png"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "description": "A beginner-friendly guide to learning modern JavaScript and building interactive web applications.",
     "category": "Tech",
     "available_quantity": 20,
-    "image_url": "https://ibb.co.com/LXhSfgLZ"
+    "image_url": "/book/2.png"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "description": "Explore galaxies, stars, and planets in this engaging introduction to astronomy.",
     "category": "Science",
     "available_quantity": 12,
-    "image_url": "https://ibb.co.com/Z65CpyRQ"
+    "image_url": "/book/3.png"
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "description": "A thrilling mystery unfolds when strange events begin happening in a quiet town.",
     "category": "Story",
     "available_quantity": 8,
-    "image_url": "https://ibb.co.com/RZbqC2L"
+    "image_url": "/book/4.png"
   },
   {
     "id": 5,
@@ -42,7 +42,7 @@
     "description": "Learn React fundamentals, hooks, and advanced concepts for modern web development.",
     "category": "Tech",
     "available_quantity": 18,
-    "image_url": "https://ibb.co.com/YFJkn1K1"
+    "image_url": "/book/5.png"
   },
   {
     "id": 6,
@@ -51,7 +51,7 @@
     "description": "A fascinating journey through the systems and functions of the human body.",
     "category": "Science",
     "available_quantity": 10,
-    "image_url": "https://ibb.co.com/9HwbWr04"
+    "image_url": "/book/6.png"
   },
   {
     "id": 7,
@@ -60,7 +60,7 @@
     "description": "A captivating tale of courage and friendship as children search for a legendary treasure.",
     "category": "Story",
     "available_quantity": 14,
-    "image_url": "https://ibb.co.com/Kz3BdJdJ"
+    "image_url": "/book/7.png"
   },
   {
     "id": 8,
@@ -69,7 +69,7 @@
     "description": "A practical guide to Python programming with real-world projects and examples.",
     "category": "Tech",
     "available_quantity": 25,
-    "image_url": "https://ibb.co.com/7tLqsYY0"
+    "image_url": "/book/8.png"
   },
   {
     "id": 9,
@@ -78,7 +78,7 @@
     "description": "An insightful overview of climate science and its impact on the world.",
     "category": "Science",
     "available_quantity": 9,
-    "image_url": "https://ibb.co.com/KxHXDnJc"
+    "image_url": "/book/9.png"
   },
   {
     "id": 10,
@@ -87,7 +87,7 @@
     "description": "A heartwarming story of exploration, dreams, and self-discovery.",
     "category": "Story",
     "available_quantity": 11,
-    "image_url": "https://ibb.co.com/whXBqyvz"
+    "image_url": "/book/10.png"
   },
   {
     "id": 11,
@@ -96,7 +96,7 @@
     "description": "Understand cloud platforms, services, and deployment models with ease.",
     "category": "Tech",
     "available_quantity": 16,
-    "image_url": "https://ibb.co.com/CsTLzNVs"
+    "image_url": "/book/11.png"
   },
   {
     "id": 12,
@@ -105,6 +105,8 @@
     "description": "An accessible introduction to the principles and mysteries of quantum physics.",
     "category": "Science",
     "available_quantity": 7,
-    "image_url": "https://ibb.co.com/fYFzMG9H"
+    "image_url": "/book/12.png"
   }
 ]
+
+
