@@ -13,7 +13,7 @@
     "university": "North South University",
     "description": "Enjoys reading novels and self-development books in free time. Loves how organized and simple the platform is. Uses it regularly for study and leisure reading.",
     "rating": 4,
-    "image": "/users/1.png"
+    "image": "/users/2.png"
   },
   
   {
@@ -22,15 +22,6 @@
     "university": "Jagannath University",
     "description": "Interested in science and literature books. Loves reading daily to gain knowledge. Appreciates the clean UI and easy navigation of the platform.",
     "rating": 4,
-    "image": "/users/1.png"
-  },
-  
-  {
-    "id": 4,
-    "name": "Tania Sultana",
-    "university": "University of Rajshahi",
-    "description": "Enjoys reading fiction and motivational books. Finds this platform very helpful for daily reading habits. Likes the simple and clean user experience.",
-    "rating": 4,
-    "image": "/users/1.png"
+    "image": "/users/3.png"
   }
 ]
