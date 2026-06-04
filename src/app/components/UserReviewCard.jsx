@@ -34,7 +34,6 @@ const UserReviewCard = ({ review }) => {
                 </p>
             </div>
             
-            {/* নাম এবং ইনস্টিটিউট (কার্ডের একদম নিচে পুশ করার জন্য mt-8) */}
             <div className="mt-8">
                 <h3 className="text-xl font-extrabold text-slate-800">{name}</h3>
                 <span className="inline-block mt-2 px-4 py-1 bg-[#d2f6fc] text-[#006680] text-xs font-bold rounded-full uppercase tracking-wider">
