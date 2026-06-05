@@ -2,6 +2,7 @@ import { Button, Card, Chip } from '@heroui/react';
 import { Layers } from 'lucide-react';
 import Image from 'next/image';
 import React from 'react';
+import Link from 'next/link'; 
 
 const AllBooks = async () => {
     const res = await fetch('https://assignment-8-nine-sigma.vercel.app/data.json', {
@@ -21,7 +22,7 @@ const AllBooks = async () => {
                     <Card
                         key={book.id}
 
-                        className="w-full max-w-70  p-4 border border-gray-100 rounded-2xl shadow-sm bg-white  gap-3 overflow-visible"
+                        className="w-full   p-4 border border-gray-100 rounded-2xl shadow-sm bg-white  gap-3 overflow-visible"
                     >
 
                         <div className="flex flex-col gap-3 grow">
@@ -71,12 +72,13 @@ const AllBooks = async () => {
                                 </div>
                             </div>
 
+                            <Link href={`/all-books/${book.id}`}>
                             <Button
                                 variant="bordered"
                                 className="w-full bg-red-500 border-gray-200 text-white font-medium hover:bg-red-600 transition-colors py-2 rounded-xl text-sm"
                             >
                                 View Details
-                            </Button>
+                            </Button></Link>
                         </div>
 
                     </Card>

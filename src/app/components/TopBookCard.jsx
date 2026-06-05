@@ -2,6 +2,7 @@ import { Card, Button, Chip } from "@heroui/react";
 import Image from "next/image";
 import React from "react";
 import { Heart, Layers } from "lucide-react";
+import Link from "next/link";
 
 const TopBookCard = ({ book }) => {
 
@@ -53,12 +54,14 @@ const TopBookCard = ({ book }) => {
             </div>
 
 
-            <Button
-                variant="bordered"
-                className="w-full bg-red-500 border-gray-200 text-white font-medium hover:bg-red-600 transition-colors py-2 rounded-xl text-sm mt-1"
-            >
-                View Details
-            </Button>
+            <Link href={`/all-books/${book.id}`}>
+                <Button
+                    variant="bordered"
+                    className="w-full bg-red-500 border-gray-200 text-white font-medium hover:bg-red-600 transition-colors py-2 rounded-xl text-sm mt-1"
+                >
+                    View Details
+                </Button>
+            </Link>
 
         </Card>
     );

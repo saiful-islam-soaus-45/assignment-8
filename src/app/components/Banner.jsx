@@ -20,11 +20,7 @@ const Banner = () => {
               </Button>
             </Link>
 
-            <Link href="/pricing">
-              <Button variant="outline" className="text-white" size="lg">
-                View Pricing
-              </Button>
-            </Link>
+            
           </div>
         </div>
       </div>

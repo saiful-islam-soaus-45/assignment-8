@@ -6,7 +6,7 @@ const TopBooks = async () => {
     const res = await fetch('https://assignment-8-nine-sigma.vercel.app/data.json');
     const data = await res.json();
     const topBooks = data.slice(0, 4);
-    console.log(topBooks);
+   
 
     return (
         <div className='max-w-7xl mx-auto my-10 px-5 mt-30'>
