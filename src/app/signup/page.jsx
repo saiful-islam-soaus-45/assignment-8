@@ -33,10 +33,17 @@ const router = useRouter();
     })
     console.log({ data, error })
 
+    
+
     if (!error) {
         router.push("/signin");
     }
   };
+  const handleGoogleSignIn = async () => {
+      await authClient.signIn.social({
+        provider: "google"
+      })
+    }
 
   return (
     <Card className="border mx-auto w-125 py-10 mt-5">
@@ -99,12 +106,17 @@ const router = useRouter();
           <FieldError />
         </TextField>
 
-        <div className="flex gap-2">
+        <div className="flex gap-2 flex-col">
           <Button type="submit" className="w-full bg-red-500 hover:bg-red-600">
             <Check />
             Submit
           </Button>
-          
+          <p className="text-sm text-muted-foreground text-center font-bold">
+            Or
+          </p>
+          <Button className="w-full" onClick={handleGoogleSignIn}>
+            Sign up with Google
+          </Button>
         </div>
       </Form>
     </Card>
