@@ -7,6 +7,7 @@ import TopBooks from "./components/TopBooks";
 import CategoryBooks from "./components/CategoryBooks";
 import { User } from "lucide-react";
 import UserReview from "./components/UserReview";
+import Footer from "./components/Footer";
 export default function Home() {
   return (
     <div>
@@ -15,6 +16,7 @@ export default function Home() {
       <TopBooks></TopBooks>
       <CategoryBooks></CategoryBooks>
       <UserReview></UserReview>
+      
       
     </div>
   );
