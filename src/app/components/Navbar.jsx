@@ -4,14 +4,35 @@ import authClient from "@/lib/auth-client";
 import { Avatar, Button } from "@heroui/react";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
+import toast from "react-hot-toast";
 
 const Navbar = () => {
   const userData = authClient.useSession();
   const user = userData.data?.user;
+  const router = useRouter()
 
-  const handleSignOut = async () => {
-    await authClient.signOut();
-  }
+const handleSignOut = async () => {
+  await authClient.signOut({
+    fetchOptions: {
+      onSuccess: () => {
+        toast.success("Logged out successfully!", { // 👈 এই টোস্টটি যোগ করুন
+          duration: 3000,
+          style: {
+            border: '1px solid #E2E8F0',
+            padding: '12px',
+            color: '#1F2937',
+          },
+        });   
+        router.push("/signin");    
+        router.refresh();   
+      },
+      onError: (ctx) => {
+        toast.error(ctx.error.message || "Failed to sign out"); // 👈 কোনো এরর হলে তার জন্য
+      }
+    }
+  });
+};
 
   return (
     <div className="border-b px-2">
