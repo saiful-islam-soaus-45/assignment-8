@@ -6,10 +6,9 @@ import { Button } from "@heroui/react";
 const Footer = () => {
     return (
         <footer className="bg-white text-gray-600 pt-10 pb-6 lg:pt-16 lg:pb-8 border-t border-gray-100 w-full">
-            {/* Responsive Grid System */}
+
             <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-10 text-center sm:text-left">
                 
-                {/* Section 1: Brand & Description */}
                 <div className="flex flex-col items-center sm:items-start gap-4">
                     <h2 className="text-2xl font-bold text-gray-900 tracking-wide">
                         Book<span className="text-red-500">Borrow</span>
@@ -18,7 +17,7 @@ const Footer = () => {
                         Borrow your favorite books easily and spread the joy of reading. A modern book-sharing platform for everyone.
                     </p>
                     
-                    {/* Social Media Links (Centered on mobile) */}
+
                     <div className="flex gap-3 mt-1">
                         <a href="https://facebook.com" target="_blank" rel="noreferrer" className="w-9 h-9 rounded-full bg-gray-100 text-gray-600 flex items-center justify-center hover:bg-red-500 hover:text-white transition-colors duration-300">
                             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.8c4.56-.93 8-4.96 8-9.8z"/></svg>
@@ -32,7 +31,6 @@ const Footer = () => {
                     </div>
                 </div>
 
-                {/* Section 2: Quick Links */}
                 <div className="flex flex-col gap-4">
                     <h3 className="text-sm font-bold text-gray-900 uppercase tracking-wider">Quick Links</h3>
                     <ul className="flex flex-col gap-2.5 text-sm">
@@ -43,7 +41,6 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                {/* Section 3: Contact Us */}
                 <div className="flex flex-col gap-4">
                     <h3 className="text-sm font-bold text-gray-900 uppercase tracking-wider">Contact Us</h3>
                     <ul className="flex flex-col items-center sm:items-start gap-3 text-sm text-gray-600">
@@ -62,14 +59,12 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                {/* Section 4: Newsletter */}
                 <div className="flex flex-col gap-4">
                     <h3 className="text-sm font-bold text-gray-900 uppercase tracking-wider">Newsletter</h3>
                     <p className="text-xs text-gray-500 leading-relaxed max-w-xs mx-auto sm:mx-0">
                         Subscribe to our newsletter to receive updates on new arrivals and exclusive offers.
                     </p>
                     <div className="flex flex-col gap-2 w-full mt-1 max-w-xs mx-auto sm:mx-0">
-                        {/* এখানে আপনি চাইলে আপনার HeroUI Input টি আবার অন করে দিতে পারেন */}
                         <Button 
                             className="bg-red-500 hover:bg-red-600 text-white font-medium w-full shadow-lg shadow-red-500/20"
                             size="sm"
@@ -81,10 +76,8 @@ const Footer = () => {
 
             </div>
 
-            {/* Custom Tailwind CSS Divider */}
             <div className="my-8 lg:my-10 bg-gray-200 h-px max-w-7xl mx-auto opacity-70" />
 
-            {/* Bottom Section (Flex directions adapt to screen sizes) */}
             <div className="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-400 text-center sm:text-left">
                 <p>© {new Date().getFullYear()} BookBorrow. All rights reserved.</p>
                 <div className="flex gap-4">

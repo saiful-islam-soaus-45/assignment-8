@@ -14,31 +14,13 @@ const BookDetails = async ({ params }) => {
 
     const book = books.find((b) => b.id === parseInt(id) || b.id === id);
 
-    if (!book) {
-        return (
-            <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center gap-4">
-                <p className="text-2xl font-bold text-gray-500">Book Not Found!</p>
-                <Link href="/all-books">
-                    <Button color="danger" variant="flat" startContent={<ArrowLeft className="w-4 h-4" />}>
-                        Back to All Books
-                    </Button>
-                </Link>
-            </div>
-        );
-    }
+    
 
     return (
         <div className="min-h-screen bg-slate-50/50 py-16 px-4 md:px-8 lg:px-12 mt-10">
             <div className="max-w-6xl mx-auto">
 
-                <div className="mb-8">
-                    <Link href="/all-books">
-                        <span className="inline-flex items-center gap-2 text-sm font-bold text-white bg-red-500 hover:bg-red-600  transition-all cursor-pointer group px-4 py-3 rounded-2xl  ">
-                            <ArrowLeft className="w-5 h-4 transform group-hover:-translate-x-1 transition-transform" />
-                            Back to All Books
-                        </span>
-                    </Link>
-                </div>
+                
 
                 <div className="bg-white rounded-3xl border border-gray-100 shadow-xl shadow-gray-200/50 overflow-hidden grid grid-cols-1 lg:grid-cols-12 gap-0">
 

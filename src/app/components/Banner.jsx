@@ -4,7 +4,7 @@ import Link from "next/link";
 const Banner = () => {
   return (
     <div className="bg-[url('https://plus.unsplash.com/premium_photo-1681487787308-52f293cd3bce?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] h-[70vh] max-w-7xl mx-auto bg-cover bg-no-repeat bg-center flex items-center rounded-lg ">
-      {/* Overlay */}
+
       <div className="w-full h-full rounded-lg  flex items-center ">
         <div className="max-w-7xl mx-auto px-6 text-white">
           <h1 className="text-4xl md:text-6xl font-bold mb-4 max-w-2xl">
