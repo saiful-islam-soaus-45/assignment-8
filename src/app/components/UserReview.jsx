@@ -2,7 +2,7 @@ import React from 'react';
 import UserReviewCard from './UserReviewCard';
 
 const UserReview = async () => {
-    const res = await fetch('/user.json', {
+    const res = await fetch('https://assignment-8-nine-sigma.vercel.app/user.json', {
         cache: 'no-store'
     });
     const reviews = await res.json();
