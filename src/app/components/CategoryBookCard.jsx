@@ -1,6 +1,7 @@
 import { Button, Card, Chip } from "@heroui/react";
 import { Layers } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 
 const CategoryBookCard = ({ book }) => {
@@ -37,7 +38,7 @@ const CategoryBookCard = ({ book }) => {
                 </p>
             </div>
 
-           
+
 
             <div className="flex items-center gap-4 text-sm text-gray-600 px-1 font-medium">
                 <div className="flex items-center gap-1.5">
@@ -50,12 +51,14 @@ const CategoryBookCard = ({ book }) => {
                 </div>
             </div>
 
-            <Button
-                variant="bordered"
-                className="w-full bg-red-500 border-gray-200 text-white font-medium hover:bg-red-600 transition-colors py-2 rounded-xl text-sm mt-1"
-            >
-                View Details
-            </Button>
+            <Link href={`/all-books/${book.id}`}>
+                <Button
+                    variant="bordered"
+                    className="w-full bg-red-500 border-gray-200 text-white font-medium hover:bg-red-600 transition-colors py-2 rounded-xl text-sm mt-1"
+                >
+                    View Details
+                </Button>
+            </Link>
 
         </Card>
     );
