@@ -42,3 +42,7 @@ daisyui
 lucide-react
 better-auth
 mongodb 
+
+**Live URL**
+https://assignment-8-nine-sigma.vercel.app
+
